@@ -188,16 +188,16 @@ else{console.log('невірно')}
 
 
 let time =35
-if (time<=15){
+if (time> 0 && time<=15){
     console.log('Перша четверть')
 }
- else if (time<=30){
+ else if ( time> 15 && time<=30){
     console.log('Друга четверть')
 }
-else if (time<=45){
+else if ( time> 30 && time<=45){
     console.log('Третя четверть')
 }
-else if (time<=59){
+else if (time > 45 && time<=59){
     console.log('Четверта четверть')}
     else{
         console.log('Значення не відповідає умові')
@@ -210,13 +210,13 @@ else if (time<=59){
 
 
     let day = 9
-if (day<=10){
+if ( day> 0 && day<=10){
     console.log('перша декада')
 }
-else if (day <= 20){
+else if ( day > 10 && day <= 20){
     console.log('друга декада')
 }
-else if (day <=31){
+else if ( day > 20 && day <=31){
     console.log('третя декада')
 }
 else {
@@ -256,9 +256,12 @@ switch (weekday){
 
 let h = 2;
 let f = 2;
-if (h>f){console.log(h)}
-  else if (f>h){console.log(f)}
-else if (h===f){console.log('числа рівні')}
+if (h>f){
+    console.log(h)}
+  else if (f>h){
+      console.log(f)}
+else if (h===f){
+    console.log('числа рівні')}
 
 
 
@@ -266,10 +269,10 @@ else if (h===f){console.log('числа рівні')}
 
 
 
-let m = false
-let n = ''
-n || m
-console.log( n || m )
+
+let n = '';
+ let  res = n ||'default';
+console.log(res )
 
 
 
@@ -285,10 +288,12 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 ];
 let monthDuration = 6
-if (monthDuration > 5){console.log('Супер'
+if (monthDuration > 5){
+    console.log('Супер');
 
-)}
-else if (monthDuration < 5){console.log('Хибний курс')}
+}
+else if (monthDuration < 5){
+    console.log('Хибний курс')}
 
 
 
