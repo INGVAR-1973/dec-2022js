@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit3">
+    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit4">
+      <change afterPath="$PROJECT_DIR$/lesson/lesson4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson4/lesson4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson/lesson3/lesson3.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson3/lesson3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -94,7 +95,18 @@
       <workItem from="1675953124649" duration="5578000" />
       <workItem from="1675963269129" duration="5275000" />
       <workItem from="1675970727833" duration="29000" />
-      <workItem from="1675970760909" duration="458000" />
+      <workItem from="1675970760909" duration="501000" />
+      <workItem from="1676055719704" duration="227000" />
+      <workItem from="1676138457200" duration="2056000" />
+      <workItem from="1676141788007" duration="38000" />
+      <workItem from="1676141957574" duration="242000" />
+      <workItem from="1676143258139" duration="6225000" />
+      <workItem from="1676197159082" duration="2236000" />
+      <workItem from="1676218056152" duration="2425000" />
+      <workItem from="1676222277785" duration="9134000" />
+      <workItem from="1676297269261" duration="8048000" />
+      <workItem from="1676314124646" duration="7118000" />
+      <workItem from="1676379031071" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="Commit lesso1">
       <created>1675263466537</created>
@@ -229,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675970297213</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Commit4">
+      <created>1675971251616</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675971251616</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +259,7 @@
     <MESSAGE value="Commit1" />
     <MESSAGE value="Commit2" />
     <MESSAGE value="Commit3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit3" />
+    <MESSAGE value="Commit4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit4" />
   </component>
 </project>
