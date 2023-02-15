@@ -167,25 +167,29 @@ console.log(swap([11, 22, 33, 44], 0, 1));
 // exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 
 function exchange(uah, currencies, exitCurrency) {
-    let result;
+
     for (const item of currencies) {
         if (item.currency === exitCurrency) {
             return uah / item.value;
 
         }
     }
-    return result;
+
 }
-exchange(10000,
+console.log(exchange(10000,
 
 
 [{currency: 'USD', value: 40},
     {currency: 'EUR', value: 42},
     ],
-'USD')
+'USD'
+)
+)
 
 
-console.log(10000,[40],'USD');
+
+
+
 
 
 
