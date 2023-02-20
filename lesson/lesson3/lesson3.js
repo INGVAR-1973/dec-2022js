@@ -33,7 +33,7 @@ while (s < 20) {
 // побудувати структуру по шаблону
 // Масив:
 //
-    let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+//     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
 let lisOfItems = ['html','css','javascript','mysql','react','angular','node.js'];
 document.write(`<ul>`);
