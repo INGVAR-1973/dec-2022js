@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit6">
-      <change afterPath="$PROJECT_DIR$/lesson/lesson6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/lesson6/lessone6.js" afterDir="false" />
+    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit7">
+      <change afterPath="$PROJECT_DIR$/lesson/lesson8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson8/lesson8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson/lesson3/lesson3.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson3/lesson3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson/lesson6/lessone6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson6/lessone6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +136,19 @@
       <workItem from="1676806115155" duration="4325000" />
       <workItem from="1676889335642" duration="54000" />
       <workItem from="1676889453299" duration="5491000" />
+      <workItem from="1676895263779" duration="69000" />
+      <workItem from="1676903229130" duration="1059000" />
+      <workItem from="1676909517640" duration="2118000" />
+      <workItem from="1676913261815" duration="276000" />
+      <workItem from="1677007909246" duration="2653000" />
+      <workItem from="1677089971502" duration="16000" />
+      <workItem from="1677154810380" duration="1055000" />
+      <workItem from="1677228791680" duration="1132000" />
+      <workItem from="1677248423319" duration="1058000" />
+      <workItem from="1677255458375" duration="8690000" />
+      <workItem from="1677269843677" duration="104000" />
+      <workItem from="1677270015233" duration="73000" />
+      <workItem from="1677335873144" duration="10121000" />
     </task>
     <task id="LOCAL-00001" summary="Commit lesso1">
       <created>1675263466537</created>
@@ -291,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676459894999</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Commit7">
+      <created>1676895290373</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676895290373</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +325,7 @@
     <MESSAGE value="Commit4" />
     <MESSAGE value="Commit5" />
     <MESSAGE value="Commit6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit6" />
+    <MESSAGE value="Commit7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit7" />
   </component>
 </project>

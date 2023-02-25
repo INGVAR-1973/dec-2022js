@@ -170,8 +170,22 @@ console.log(allRedCards);
 
 // - всі буби
 
-let allClubs = cardsClubs;
-console.log(allClubs);
+let allDiamond = cardsDiamond;
+
+console.log(allDiamond);
+
+// - всі трефи від 9 до 'ace'
+
+
+const suits = ['clubs', 'diamonds', 'hearts', 'spades'];
+const ranks = ['9', '10', 'jack', 'queen', 'king', 'ace'];
+
+for (let i = 0; i < ranks.length; i++) {
+    console.log(ranks[i] + ' of ' + suits[0]);
+}
+// console.log(card.filter((card :{...} => cards.cardSuit === 'clubs' && ['9','10','jack','queen','ace','king'].includes(card.value)));
+
+
 
 //
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
@@ -269,37 +283,44 @@ let coursesArray = [
 ];
 
 
-let sassCourses = coursesArray.filter(course => course.modules.includes('sass'));
-console.log(sassCourses);
-[    {        title: 'Frontend',        monthDuration: 4,        hourDuration: 909,        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
-}
-]
-let dockerCourses = coursesArray.filter(course => course.modules.includes('docker'));
-console.log(dockerCourses);
-[    {        title: 'JavaScript Complex',        monthDuration: 5,        hourDuration: 909,        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
-},
-    {
-        title: 'Java Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'angular', 'aws', 'docker', 'git', 'java core', 'java advanced']
-    },
-    {
-        title: 'Python Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'angular', 'aws', 'docker', 'python core', 'python advanced']
-    },
-    {
-        title: 'FullStack',
-        monthDuration: 7,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js', 'python', 'java']
-    },
-    {
-        title: 'Frontend',
-        monthDuration: 4,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
-    }
-];
+
+
+// let sassCourses = coursesArray.filter(course => course.modules.includes('sass'));
+// console.log(sassCourses);
+// [    {        title: 'Frontend',        monthDuration: 4,        hourDuration: 909,        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+// }
+// ]
+// let dockerCourses = coursesArray.filter(course => course.modules.includes('docker'));
+// console.log(dockerCourses);
+// [    {        title: 'JavaScript Complex',        monthDuration: 5,        hourDuration: 909,        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+// },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'angular', 'aws', 'docker', 'git', 'java core', 'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'angular', 'aws', 'docker', 'python core', 'python advanced']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js', 'python', 'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+
+// console.log(coursesAndDurationArray.filter((item:{...} ) => item.modules.includes('sass')));
+//
+// console.log(coursesAndDurationArray.filter((item:{...}) => item.modules.includes('docker')));
+//
