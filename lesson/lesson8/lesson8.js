@@ -1,15 +1,59 @@
 /// - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 
+// - Взяти масив з  User[let users1 = [
+//     {id: 8456, name: 'Masha', age: 20},
+//     {id: 4567, name: 'Sasha', age: 23},
+//     {id: 6789, name: 'Dasha', age: 19}
+// ];
+// users1.sort(function (a, b){
+//     return a.id - b.id;
+// });
+// console.log(users1);] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 let users1 = [
     {id: 8456, name: 'Masha', age: 20},
     {id: 4567, name: 'Sasha', age: 23},
     {id: 6789, name: 'Dasha', age: 19}
 ];
-users1.sort(function (a, b){
-    return a.id - b.id;
+
+let filteredUsers = users1.filter(function(user) {
+    return user.id % 2 === 0;
 });
-console.log(users1);
+
+console.log(filteredUsers);
+
+// - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
+// створити пустий масив, наповнити його 10 об'єктами new User(....)
+
+function User(id, name, surname, email, phone) {
+    this.id = id;
+    this.name = name;
+    this.surname = surname;
+    this.email = email;
+    this.phone = phone;
+}
+
+// Створення пустого масиву користувачів
+const users = [];
+
+
+users.push(new User(1, 'KOLYA', 'LISENKO', 'KOLYA@example.com', '123-456-7890'));
+users.push(new User(2, 'Jana', 'Dorenko', 'janador@example.com', '987-654-3210'));
+users.push(new User(3, 'Boris', 'Smalenko', 'borismall@example.com', '555-555-5555'));
+users.push(new User(4, 'Alica', 'Jovnir', 'alicajov@example.com', '111-222-3333'));
+users.push(new User(5, 'Cazimir', 'Boroda', 'cazbord@example.com', '444-444-4444'));
+users.push(new User(6, 'Sasha', 'Jorno', 'sashajorn@example.com', '777-777-7777'));
+users.push(new User(7, 'David', 'Lapenko', 'davidlap@example.com', '888-888-8888'));
+users.push(new User(8, 'Emiliya', 'Daviduk', 'emilydavid@example.com', '999-999-9999'));
+users.push(new User(9, 'Fedir', 'Garniy', 'fedirkgar@example.com', '333-333-3333'));
+users.push(new User(10, 'Stepan', 'Chaplenko', 'stepchan@example.com', '666-666-6666'));
+
+console.log(users);
+
+
+
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
+
+
 class Client {
 
 
