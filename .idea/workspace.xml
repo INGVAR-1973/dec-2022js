@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit8">
+    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit9">
+      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson10/lesson10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson9/lesson9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson9/lesson9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson/lesson8/lesson8.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson8/lesson8.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +66,6 @@
       <recent name="$PROJECT_DIR$/lesson/lesson3" />
       <recent name="$PROJECT_DIR$/lesson/lesson1" />
     </key>
-  </component>
-  <component name="RunManager" selected="Node.js.lesson5.js">
-    <configuration name="lesson4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson/lesson4/lesson4.js" working-dir="$PROJECT_DIR$/lesson/lesson4">
-      <method v="2" />
-    </configuration>
-    <configuration name="lesson5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson/lesson5/lesson5.js" working-dir="$PROJECT_DIR$/lesson/lesson5">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.lesson5.js" />
-        <item itemvalue="Node.js.lesson4.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,7 +142,42 @@
       <workItem from="1677433143425" duration="146000" />
       <workItem from="1677433521010" duration="71000" />
       <workItem from="1677484708874" duration="423000" />
-      <workItem from="1677503895185" duration="1824000" />
+      <workItem from="1677503895185" duration="2000000" />
+      <workItem from="1677506525148" duration="11000" />
+      <workItem from="1677506541135" duration="156000" />
+      <workItem from="1677571237320" duration="158000" />
+      <workItem from="1677571430412" duration="87000" />
+      <workItem from="1677571552359" duration="55000" />
+      <workItem from="1677571951999" duration="256000" />
+      <workItem from="1677572227547" duration="167000" />
+      <workItem from="1677572533735" duration="307000" />
+      <workItem from="1677573372351" duration="15000" />
+      <workItem from="1677573477457" duration="20000" />
+      <workItem from="1677598754014" duration="609000" />
+      <workItem from="1677599380864" duration="30000" />
+      <workItem from="1677614281782" duration="731000" />
+      <workItem from="1677615149587" duration="1316000" />
+      <workItem from="1677672211737" duration="1443000" />
+      <workItem from="1677680302811" duration="220000" />
+      <workItem from="1677685325618" duration="3850000" />
+      <workItem from="1677752709116" duration="3445000" />
+      <workItem from="1677760277679" duration="154000" />
+      <workItem from="1677760822269" duration="4695000" />
+      <workItem from="1677778198372" duration="202000" />
+      <workItem from="1677778465966" duration="450000" />
+      <workItem from="1677779483144" duration="546000" />
+      <workItem from="1677849587244" duration="120000" />
+      <workItem from="1677849819850" duration="1926000" />
+      <workItem from="1677852359202" duration="6000" />
+      <workItem from="1677861873798" duration="2410000" />
+      <workItem from="1677867098005" duration="2037000" />
+      <workItem from="1677869355184" duration="248000" />
+      <workItem from="1677874802516" duration="660000" />
+      <workItem from="1677941858943" duration="78000" />
+      <workItem from="1677943964971" duration="599000" />
+      <workItem from="1677948015531" duration="205000" />
+      <workItem from="1677953946977" duration="41000" />
+      <workItem from="1677953992343" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="Commit lesso1">
       <created>1675263466537</created>
@@ -322,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677351254338</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Commit9">
+      <created>1677506004302</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677506004302</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +370,7 @@
     <MESSAGE value="Commit6" />
     <MESSAGE value="Commit7" />
     <MESSAGE value="Commit8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit8" />
+    <MESSAGE value="Commit9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit9" />
   </component>
 </project>
