@@ -1,13 +1,10 @@
-// Стоврити форму з трьома полями для name,sruname,age та кнопкою. При натисканні на кнопку зчитати данні з полів, та вивести об'єкт в документ. Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
-// ==========================
-// є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
-// ==========================
 
 // Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається інформація про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html. Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію
 // =========================
 // Отримуємо доступ до масиву sessions з локального сховища
 
-const  sessions = JSON.parse(localStorage.getItem('sessions')) || [];
+
+const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
 // Знаходимо контейнер, в який будемо вставляти таблицю
 // const sessionsContainer = document.querySelector('#sessions-container');
 const  sessionsContainer = document.querySelector('#sessions-container');
@@ -38,15 +35,16 @@ sessions.forEach((session) => {
 });
 table.appendChild(tbody);
 
-// Вставляємо таблицю в контейнер
 sessionsContainer.appendChild(table);
+
+
 
 //     зробити масив на 100 об'єктів та дві кнопки prev next
 // при завантажені сторінки з'являються перші 10 об'єктів.
 //     При натисканні next виводяться настпні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
-//
-//
+
+
 // Створення масиву з 100 об'єктів
 let objectsArray = [];
 for (let i = 1; i <= 100; i++) {
@@ -97,15 +95,6 @@ displayItems();
 document.getElementById("prev-button").addEventListener("click", goToPreviousPage);
 document.getElementById("next-button").addEventListener("click", goToNextPage);
 
-// *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
-//     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
-<label htmlFor="rows">Кількість рядків:</label>
-<input type="number" id="rows" name="rows">
 
-    <label htmlFor="columns">Кількість ячеєк:</label>
-    <input type="number" id="columns" name="columns">
 
-        <label htmlFor="content">Вміст ячеєк:</label>
-        <input type="text" id="content" name="content">
 
-            <button onClick="createTable()">Створити таблицю</button>
