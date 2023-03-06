@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit11" />
+    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +176,7 @@
       <workItem from="1678018312480" duration="1057000" />
       <workItem from="1678020942498" duration="4393000" />
       <workItem from="1678097735196" duration="620000" />
-      <workItem from="1678098380170" duration="328000" />
+      <workItem from="1678098380170" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="Commit lesso1">
       <created>1675263466537</created>
@@ -381,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678098699834</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Commit12">
+      <created>1678098861762</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678098861762</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +407,7 @@
     <MESSAGE value="Commit9" />
     <MESSAGE value="Commit10" />
     <MESSAGE value="Commit11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit11" />
+    <MESSAGE value="Commit12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit12" />
   </component>
 </project>
