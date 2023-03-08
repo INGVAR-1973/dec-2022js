@@ -1,0 +1,66 @@
+<!--зробити масив на 100 об'єктів та дві кнопки prev next-->
+<!--при завантажені сторінки з'являються перші 10 об'єктів.-->
+<!--При натисканні next виводяться настпні 10 об'єктів-->
+<!--При натисканні prev виводяться попередні 10 об'єктів-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prev/Next buttons</title>
+  <script src="lesson10.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<button id="prev">Prev</button>
+<button id="next">Next</button>
+<script>
+  // Створення масиву з 100 об'єктів
+  const data = [];
+  for (let i = 1; i <= 100; i++) {
+    data.push({ id: i, name: `Item ${i}` });
+  }
+
+  // Відображення перших 10 об'єктів
+  let startIndex = 0;
+  let endIndex = 10;
+  const container = document.getElementById("container");
+  for (let i = startIndex; i < endIndex; i++) {
+    const div = document.createElement("div");
+    div.innerHTML = `ID: ${data[i].id}, Name: ${data[i].name}`;
+    container.appendChild(div);
+  }
+
+  // Додавання обробників подій для кнопок prev та next
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+  prevBtn.addEventListener("click", () => {
+    if (startIndex > 0) {
+      startIndex -= 10;
+      endIndex -= 10;
+      container.innerHTML = "";
+      for (let i = startIndex; i < endIndex; i++) {
+        const div = document.createElement("div");
+        div.innerHTML = `ID: ${data[i].id}, Name: ${data[i].name}`;
+        container.appendChild(div);
+      }
+    }
+  });
+  nextBtn.addEventListener("click", () => {
+    if (endIndex < data.length) {
+      startIndex += 10;
+      endIndex += 10;
+      container.innerHTML = "";
+      for (let i = startIndex; i < endIndex; i++) {
+        const div = document.createElement("div");
+        div.innerHTML = `ID: ${data[i].id}, Name: ${data[i].name}`;
+        container.appendChild(div);
+      }
+    }
+  });
+</script>
+</body>
+</html>
+
+
+</body>
+</html>

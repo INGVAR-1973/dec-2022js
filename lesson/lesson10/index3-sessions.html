@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper{
+            width: 300px;
+            padding: 10px;
+        }
+        .item {
+            margin-top: 10px;
+            border: red 2px solid;
+        }
+    </style>
+</head>
+<body>
+<script src="lesson10.js"></script>
+<!--Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається інформація про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати всю інформацію про відвідування сторінки index.html. Інфу НЕ виводити в консоль, а побудувати дом структуру під кожну сессію-->
+<script>
+    const json = localStorage.getItem('sessions');
+    const sessions = json ? JSON.parse(json) : [];
+
+    for (const session of sessions) {
+        const wrepper = document.createElement('div');
+        const date = document.createElement('div');
+        const time = document.createElement('div');
+        const device = document.createElement('div');
+
+        wrepper.classList.add('wrapper','item');
+
+        const dateOdj = format(session.date);
+
+        date.innerText = `Date:${dateOdj.DD}/${dateOdj.MM}/${dateOdj.YYYY}`;
+        time.innerText = `Time:${dateOdj.hh}:${dateOdj.mm}:${dateOdj.ss}`;
+        device.innerText = `Device:${session.appCodeName} / ${session.appVersion}`;
+
+        wrepper.append(date,time,device);
+        document.body.appendChild('wrapper');
+    }
+    function format(dateString) {
+
+        const YYYY = new Date(dateString).getFullYear().toString();
+        const MM = (new Date(dateString).getMonth() + 1).toString();
+        const DD = new Date(dateString).getDay().toString();
+        const hh = new Date(dateString).getHours().toString();
+        const mm = new Date(dateString).getMinutes().toString();
+        const ss = new Date(dateString).getSeconds().toString();
+        return {
+            YYYY: YYYY,
+            MM: MM.length < 2 ? `0${MM}`:MM,
+            DD: DD.length < 2 ? `0${DD}`:DD,
+            hh: hh.length < 2 ? `0${hh}`:hh,
+            mm: mm.length < 2 ? `0${mm}`:mm,
+            ss: ss.length < 2 ? `0${ss}`:ss,
+        }
+    }
+</script>
+
+</body>
+</html>
