@@ -4,40 +4,40 @@
 // Отримуємо доступ до масиву sessions з локального сховища
 
 
-const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
-// Знаходимо контейнер, в який будемо вставляти таблицю
-// const sessionsContainer = document.querySelector('#sessions-container');
-const  sessionsContainer = document.querySelector('#sessions-container');
-// Створюємо таблицю і додаємо заголовок
-const table = document.createElement('table');
-const thead = document.createElement('thead');
-const tr = document.createElement('tr');
-const th1 = document.createElement('th');
-const th2 = document.createElement('th');
-th1.textContent = 'Дата';
-th2.textContent = 'Час';
-tr.appendChild(th1);
-tr.appendChild(th2);
-thead.appendChild(tr);
-table.appendChild(thead);
-
-// Додаємо кожну сесію в таблицю
-const tbody = document.createElement('tbody');
-sessions.forEach((session) => {
-    const tr = document.createElement('tr');
-    const td1 = document.createElement('td');
-    const td2 = document.createElement('td');
-    td1.textContent = session.date;
-    td2.textContent = session.time;
-    tr.appendChild(td1);
-    tr.appendChild(td2);
-    tbody.appendChild(tr);
-});
-table.appendChild(tbody);
-
-sessionsContainer.appendChild(table);
-
-
+// const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
+// // Знаходимо контейнер, в який будемо вставляти таблицю
+// // const sessionsContainer = document.querySelector('#sessions-container');
+// const  sessionsContainer = document.querySelector('#sessions-container');
+// // Створюємо таблицю і додаємо заголовок
+// const table = document.createElement('table');
+// const thead = document.createElement('thead');
+// const tr = document.createElement('tr');
+// const th1 = document.createElement('th');
+// const th2 = document.createElement('th');
+// th1.textContent = 'Дата';
+// th2.textContent = 'Час';
+// tr.appendChild(th1);
+// tr.appendChild(th2);
+// thead.appendChild(tr);
+// table.appendChild(thead);
+//
+// // Додаємо кожну сесію в таблицю
+// const tbody = document.createElement('tbody');
+// sessions.forEach((session) => {
+//     const tr = document.createElement('tr');
+//     const td1 = document.createElement('td');
+//     const td2 = document.createElement('td');
+//     td1.textContent = session.date;
+//     td2.textContent = session.time;
+//     tr.appendChild(td1);
+//     tr.appendChild(td2);
+//     tbody.appendChild(tr);
+// });
+// table.appendChild(tbody);
+//
+// sessionsContainer.appendChild(table);
+//
+//
 
 //     зробити масив на 100 об'єктів та дві кнопки prev next
 // при завантажені сторінки з'являються перші 10 об'єктів.

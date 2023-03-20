@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index3-sessions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson/lesson10/index5.html" afterDir="false" />
+    <list default="true" id="37c8a708-c532-4f6c-8a53-4f844292e895" name="Changes" comment="Commit12">
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/lesson12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/lesson12.css2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/lesson12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/lesson12.js2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/lesson12/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson/lesson10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson/lesson10/index3-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson10/index3-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson/lesson10/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson10/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson/lesson10/lesson10.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/lesson10/lesson10.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -201,7 +207,38 @@
       <workItem from="1678118988384" duration="1077000" />
       <workItem from="1678182234126" duration="10000" />
       <workItem from="1678182247621" duration="11347000" />
-      <workItem from="1678268244808" duration="303000" />
+      <workItem from="1678268244808" duration="472000" />
+      <workItem from="1678268837130" duration="653000" />
+      <workItem from="1678369688410" duration="422000" />
+      <workItem from="1678547215306" duration="811000" />
+      <workItem from="1678549639926" duration="1251000" />
+      <workItem from="1678559966079" duration="2368000" />
+      <workItem from="1678622656013" duration="3350000" />
+      <workItem from="1678642429973" duration="459000" />
+      <workItem from="1678643044536" duration="78000" />
+      <workItem from="1678643447593" duration="4396000" />
+      <workItem from="1678650950499" duration="55000" />
+      <workItem from="1678706600055" duration="2762000" />
+      <workItem from="1678709658024" duration="3652000" />
+      <workItem from="1678817616621" duration="42000" />
+      <workItem from="1678818355003" duration="287000" />
+      <workItem from="1678819208987" duration="4546000" />
+      <workItem from="1678897454077" duration="7151000" />
+      <workItem from="1678907735620" duration="3855000" />
+      <workItem from="1678945814190" duration="4378000" />
+      <workItem from="1678985381889" duration="8398000" />
+      <workItem from="1678997290874" duration="4753000" />
+      <workItem from="1679068846424" duration="15489000" />
+      <workItem from="1679233938031" duration="482000" />
+      <workItem from="1679238507500" duration="17221000" />
+      <workItem from="1679287814127" duration="1350000" />
+      <workItem from="1679298309730" duration="521000" />
+      <workItem from="1679300253584" duration="477000" />
+      <workItem from="1679301611545" duration="109000" />
+      <workItem from="1679302202735" duration="666000" />
+      <workItem from="1679304310518" duration="7000" />
+      <workItem from="1679304408068" duration="8000" />
+      <workItem from="1679304463166" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Commit lesso1">
       <created>1675263466537</created>
@@ -441,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678113523858</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Commit12">
+      <created>1678268688776</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678268688776</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,9 +504,9 @@
     <MESSAGE value="Commit9" />
     <MESSAGE value="Commit10" />
     <MESSAGE value="Commit11" />
-    <MESSAGE value="Commit12" />
     <MESSAGE value="Commit13" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commit12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit12" />
   </component>
 </project>

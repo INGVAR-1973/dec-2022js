@@ -1,0 +1,36 @@
+const usersContainer = document.querySelector('.users');
+
+fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then(users => {
+        users.forEach(user => {
+            const userDiv = document.createElement('div');
+            userDiv.classList.add('user');
+            userDiv.innerHTML = `
+        <h2>${user.name}</h2>
+        <p>Email: ${user.email}</p>
+        <p>Phone: ${user.phone}</p>
+        <button class="user-posts-btn" data-user-id="${user.id}">Posts of current user</button>
+      `;
+            // usersContainer.appendChild(userDiv);
+
+            const userPostsBtn = userDiv.querySelector('.user-posts-btn');
+            userPostsBtn.addEventListener('click', () => {
+                const userId = userPostsBtn.dataset.userId;
+                fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
+                    .then(response => response.json())
+                    .then(posts => {
+                        const userPostsDiv = document.createElement('div');
+                        userPostsDiv.classList.add('user-posts');
+                        userPostsDiv.innerHTML = posts.map(post => `
+              <div class="post">
+                <h3>${post.title}</h3>
+                <p>${post.body}</p>
+                <a href="post-details.html?postId=${post.id}">Post details</a>
+              </div>
+            `).join('');
+                        userDiv.appendChild(userPostsDiv);
+                    });
+            });
+        });
+    });
